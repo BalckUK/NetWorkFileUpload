@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+//		Tv tv = new Tv();
+//		System.out.println(tv.getChannel());
+//		tv.setChannel(5);
+//		System.out.println(tv.getChannel());
+//		System.out.println(tv.getVolume());
+		Tv tv = new Tv(5,10); //?ƒ?„±?ë©”ì„œ?“œì½œì—?Š” ()ê°? ë¶™ëŠ”?‹¤ ,?¸? ê°’ì„ ?„˜ê¸? ?ˆ˜ ?ˆ?‹¤
+		
+		System.out.println(tv.getChannel());
+		System.out.println(tv.getVolume());
+		
+		Scanner sc = new Scanner(System.in);
+		// Scanner?¼?Š” ?˜•?˜ ?´ë¦„ì„ sc?¼ê³? ?•˜ê³?  Scanner?¼?Š” ?¸?Š¤?„´?Š¤ë¥? ë§Œë“¤ê³? System.in?„ ?„£?–´?„œ ë§Œë“¤?–´?¼
+		// sc?—?„œ ê·? ì£¼ì†Œê°’ì„ ?„£?–´?¼
+		
+	}
+
+}
